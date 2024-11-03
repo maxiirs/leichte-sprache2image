@@ -22,12 +22,12 @@ and follow the instructions in its README.md to install necessary requirements
 3. Start fine-tuning by ```python sdxl_train_network.py --config_file=<absolut-path-to>/basic-lora-config.toml```
 ### Generate Images
 1. run generate_images in image-generation/generate-images.py with the base directory from one of the four dataset varies. <br>
-It will generate an image for each test image (<dataset-path>/test) and LoRA-Checkpoint (<dataset-path>/loras). The images will be saved in <dataset-path>/output/<checkpoint-name>.
+It will generate an image for each test image (&lt;dataset-path&gt;/test) and LoRA-Checkpoint (&lt;dataset-path&gt;/loras). The images will be saved in &lt;dataset-path&gt;/output/&lt;checkpoint-name&gt;.
 
 ### Evaluate Images
 1. calculate fid-score by running calculate_fid in image-evaluation/frechet-inception-distance.py with the base directroy from one of the four dataset varies. <br>
-Keep in mind that you will need to have some generated images in <dataset-path>/output/<checkpoint-name> and <dataset-path>/test-images-only/<checkpoint-name>
+Keep in mind that you will need to have some generated images in &lt;dataset-path&gt;/output/&lt;checkpoint-name&gt; and &lt;dataset-path&gt;/test-images-only/&lt;checkpoint-name&gt;
 2. calculate ImageReward-score by running calculate_image_reward in image-evaluation/image-reward.py with the base directroy from one of the four dataset varies. <br>
-Keep in mind that you will need to have some generated images in <dataset-path>/output/<checkpoint-name> and <dataset-path>/test-images-only/<checkpoint-name>
+Keep in mind that you will need to have some generated images in &lt;dataset-path&gt;/output/&lt;checkpoint-name&gt; and &lt;dataset-path&gt;/test-images-only/&lt;checkpoint-name&gt;
 3. (optional) check the example visualization of ImageReward and FID in image-evaluation/visualize-evaluation.ipynb
 
