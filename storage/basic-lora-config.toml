@@ -34,6 +34,4 @@ text_encoder_lr = 0.0001
 train_batch_size = 8
 unet_lr = 0.0001
 xformers = true
-validation_split=0.1
-validation_seed=20
-validation_every_n_step=50
+num_repeats = 20
