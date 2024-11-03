@@ -1,3 +1,4 @@
+output_name = "leichte-sprache"
 train_data_dir = <put absolut path here> e.g. "<absolut-path-to>/generated-description_random-split/fine-tuning"
 output_dir = <put absolut path here> e.g. "<absolut-path-to>/generated-description_random-split/loras"
 logging_dir = <put absolut path here> e.g. "<absolut-path-to>/generated-description_random-split/logs"
@@ -24,7 +25,6 @@ network_dim = 256
 network_module = "networks.lora"
 optimizer_args = [ "scale_parameter=False", "relative_step=False", "warmup_init=False",]
 optimizer_type = "Adafactor"
-output_name = "test"
 resolution = "512,512"
 save_every_n_epochs = 5
 save_model_as = "safetensors"
@@ -34,4 +34,3 @@ text_encoder_lr = 0.0001
 train_batch_size = 8
 unet_lr = 0.0001
 xformers = true
-num_repeats = 20
