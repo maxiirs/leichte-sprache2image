@@ -1,6 +1,6 @@
-train_data_dir = <put absolut path here>
-output_dir = <put absolut path here>
-logging_dir = <put absolut path here>
+train_data_dir = <put absolut path here> e.g. "<absolut-path-to>/generated-description_random-split/fine-tuning"
+output_dir = <put absolut path here> e.g. "<absolut-path-to>/generated-description_random-split/loras"
+logging_dir = <put absolut path here> e.g. "<absolut-path-to>/generated-description_random-split/logs"
 pretrained_model_name_or_path = "stabilityai/stable-diffusion-xl-base-1.0"
 bucket_no_upscale = true
 bucket_reso_steps = 64
