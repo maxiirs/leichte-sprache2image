@@ -42,4 +42,5 @@ The dataset names in this repository follow a slightly different naming strategy
 | translated-description_category-split | CS_D           |
 | generated-description_category-split  | CS_IC          |
 
+The original output is available at storage/CS_D/output, storage/CS_IC/output, storage/RS_D/output & storage/RS_IC/output. 
 

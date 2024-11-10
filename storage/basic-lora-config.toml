@@ -22,6 +22,7 @@ max_train_epochs = 20
 min_bucket_reso = 256
 mixed_precision = "bf16"
 network_dim = 256
+network_alpha = 256
 network_module = "networks.lora"
 optimizer_args = [ "scale_parameter=False", "relative_step=False", "warmup_init=False",]
 optimizer_type = "Adafactor"
